@@ -20,4 +20,4 @@ def on_finish(error, response):
         raise error
     print(response)
 
-sms.send("Hello Message!", ["+254711959117"], callback=on_finish)
+sms.send("Hello Message!", ["+2547********"], callback=on_finish)
